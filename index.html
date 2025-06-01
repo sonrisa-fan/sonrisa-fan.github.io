@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2a PRESENTACIÓN ESTATAL DE EXPERIENCIAS DOCENTES EN TELESECUNDARIA</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" type="image/png" href="img/itcolima.svg" />
+</head>
+<body id="body">
+
+  <!-- Encabezado -->
+  <div id="textoInicial">
+    <div>
+      <img src="img/Logo3.png" alt="Imagen México" class="logomexico" />
+    </div>
+    <div>
+      <h2>2a PRESENTACIÓN ESTATAL DE EXPERIENCIAS DOCENTES EN TELESECUNDARIA</h2>
+      <span class="gradient-overlay"></span>
+    </div>
+    <div>
+      <img src="img/Logo2.png" alt="Imagen Colima" class="logocolima" />
+    </div>
+  </div>
+
+  <!-- Título -->
+  <div id="titulo">
+    <h2>Colocar nombre y apellido completo</h2>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <h2>Buscar información personal</h2>
+    <input type="text" id="nombreInput" placeholder="Escriba su nombre..." />
+    <button onclick="buscarInformacion()">Buscar</button>
+
+    <div id="mensaje"></div>
+
+    <div id="table-container">
+      <h3>Información <span id="nombreMostrado"></span></h3>
+      <table class="info-table" id="tablaInfo">
+        <!-- Se llena dinámicamente -->
+      </table>
+    </div>
+  </div>
+
+  <!-- Botón fijo abajo -->
+  <a href="ubicacion.html" class="fixed-footer-button">Ubicación del evento</a>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

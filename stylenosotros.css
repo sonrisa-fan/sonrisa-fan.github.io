@@ -1,0 +1,105 @@
+
+/*Iconos de Redes sociales*/
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+
+.main-container {
+    display: flex;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 32px;
+}
+
+.icon-list {
+    display: flex;
+    gap: 10px;
+    font-family: 'Calibri';
+}
+
+.item {
+    position: relative;
+    list-style: none;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: 0.5s ease-in-out;
+    color: rgb(1, 10, 166);
+    border: 1px solid rgba(111, 111, 111, 0.37);
+}
+
+.item:hover .icon-box {
+    transform: rotateX(60deg) perspective(550px) translateY(2px);
+    box-shadow: 0px 10px 2px rgba(0, 0, 0, 0.384);
+}
+
+.icon {
+    transition: transform .3s;
+}
+
+.item:hover .icon {
+    transform: translate3d(0px, 0px, 15px) rotateX(-75deg);
+}
+
+.count {
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    top: 0;
+    transition: .6s;
+    padding: 4px 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    background: #33bbff;
+    color: rgb(4, 12, 13);
+    transform: translate(-50%, 0px);
+}
+
+.count::after {
+    content: '\F229';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    color: #161616;
+    font-family: 'bootstrap-icons';
+    transform: translate(-50%, 65%);
+}
+
+.item:hover .count {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translate(-50%, -50px);
+}
+
+.item a {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 50%;
+    color: rgb(148, 3, 170);
+    transition: .5s;
+    padding: 10px 0;
+    visibility: hidden;
+    text-decoration: none;
+    transform: translate(-50%, 0);
+}
+
+.item:hover a {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 40px);
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+/*Termina iconos de reces sciales*/

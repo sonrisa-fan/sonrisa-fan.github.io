@@ -1,0 +1,129 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  padding: 20px;
+  background-color: rgb(37, 36, 36);
+  zoom: 90%;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Input y botón de búsqueda */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Tabla */
+.info-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.info-table th, .info-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.info-table th {
+  background-color: #f2f2f2;
+}
+
+#table-container {
+  display: none;
+  margin-top: 20px;
+}
+
+#mensaje {
+  margin-top: 20px;
+  color: red;
+}
+
+/* Encabezado superior */
+#textoInicial {
+  background: linear-gradient(to right, rgb(225, 98, 29), rgb(137, 0, 0));
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 87px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  clip-path: polygon(1% 0%, 99% 0%, 100% 50%, 99% 100%, 1% 100%, 0% 50%);
+}
+
+/* Título principal */
+#titulo {
+  background: linear-gradient(to right, rgb(147, 4, 4), rgb(75, 2, 2), rgb(147, 4, 4));
+  text-align: center;
+  height: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 0 10px rgb(1, 142, 142), inset 0 0 5px #0ff;
+}
+
+/* Imágenes */
+.logomexico {
+  width: 350px;
+  margin-left: 20px;
+}
+
+.logocolima {
+  width: 350px;
+  margin-right: 20px;
+}
+
+/* Botón fijo abajo */
+.fixed-footer-button {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.fixed-footer-button:hover {
+  background-color: #0056b3;
+}
