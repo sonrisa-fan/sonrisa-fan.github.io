@@ -124,3 +124,21 @@
     margin: 10px 0;
     font-size: 22px;
 }
+
+/*Para el boton del guión de regresar*/
+.boton-volver {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.boton-volver:hover {
+  background-color: #1e7e34;
+}
