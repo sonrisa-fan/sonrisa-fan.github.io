@@ -103,3 +103,24 @@
 }
 
 /*Termina iconos de reces sciales*/
+
+
+/* Título principal */
+#titulo {
+    background: linear-gradient(to right, rgb(147, 4, 4), rgb(75, 2, 2), rgb(147, 4, 4));
+    text-align: center;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 0 10px rgb(1, 142, 142), inset 0 0 5px #0ff;
+}
+
+.pregunta {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 22px;
+}
