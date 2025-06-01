@@ -108,9 +108,7 @@ button:hover {
 
 /* Botón fijo abajo */
 
-.fixed-footer-button:hover {
-  background-color: #0056b3;
-}
+
 .fixed-footer-container {
   position: fixed;
   bottom: 0;
