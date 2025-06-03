@@ -66,6 +66,7 @@ function buscarInformacion() {
     <tr>
       <th>Nombre</th>
       <th>Tema</th>
+      <th>Mesa</th>
     </tr>
   `;
 
@@ -74,6 +75,7 @@ function buscarInformacion() {
       <tr>
         <td>${p.nombre}</td>
         <td>${p.tema}</td>
+        <td>${p.mesa}</td>
       </tr>
     `;
   });
